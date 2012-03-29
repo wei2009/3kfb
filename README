@@ -1,0 +1,25 @@
+Global setup:
+ Set up git
+  git config --global user.name "Your Name"
+  git config --global user.email wei2009.li@gmail.com
+      
+Next steps:
+  mkdir 3kfb
+  cd 3kfb
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:wei2009/3kfb.git
+  git push -u origin master
+      
+Existing Git Repo?
+  cd existing_git_repo
+  git remote add origin git@github.com:wei2009/3kfb.git
+  git push -u origin master
+      
+Importing a Subversion Repo?
+  Check out the guide for step by step instructions.
+      
+When you're done:
+  Continue
